@@ -1,0 +1,30 @@
+* {
+  border: 1px solid red;
+}
+header {
+  height: 100px;
+}
+header img {
+  float: left;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+header ul {
+  list-style: none;
+  float: right;
+}
+header ul li {
+    display: inline-block;
+}
+#logo {
+  float: left;
+  list-style-type: none;
+  padding: 0;
+}
+#logo h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 25px;
+}
+header p {
+  font-size: 10px;
+}
