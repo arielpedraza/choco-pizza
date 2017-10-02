@@ -72,21 +72,25 @@ width: 100%;
   text-indent: 30px;
   margin: 25px 0;
 }
+#shopping {
+    background-image: url("img/list-bg.png");
+      height: 270px;
+}
 main ul {
+  display: inline-block;
   border: 1px solid white;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Patrick Hand', cursive;
   margin-bottom: 25px;
-  background-image: url("img/list-bg.png");
-  height: 270px;
   padding-left: 55px;
-  padding-top: 34px;
-  overflow: auto;
+  padding-top: 32px;
 }
 main li {
-    font-size: 18px;
-    font-weight: bold;
-    color: #444;
-    margin-top: 12px;
+    font-size: 22px;
+    color: #777;
+    margin-top: 9px;
+}
+.list:checked + label {
+  text-decoration: line-through;
 }
 #blogger img {
   float: left;
